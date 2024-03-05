@@ -4,6 +4,72 @@ import pyautogui
 import time
 import os
 
+modes = [
+    {
+      "name": "Learn Python",
+      "keyword": "learn_python",
+      "description": 
+        '''
+          Focus on learning Python with the ff:
+          . Udemy - The Complete Python Bootcamp From Zero to Hero in Python
+          . Visual Studio Code - Bootcamp From Zero to Hero (Directory)
+          . Jupyter Notebook - Bootcamp From Zero to Hero (Directory)
+        '''
+      ,
+      "config_instructions": 
+        '''
+          Sample instructions...
+        '''
+      ,
+      "check_config": lambda: (
+          print("Checking config if valid...")
+      ),
+      "go_focus": lambda: (
+          print('Activating "Learn Python" mode...')
+      ),
+    },
+    {
+      "name": "Learn Unity",
+      "keyword": "learn_unity",
+      "description": 
+        '''
+          Sample description...
+        '''
+      ,
+      "config_instructions": 
+        '''
+          Sample instructions...
+        '''
+      ,
+      "check_config": lambda: (
+          print("Checking config if valid...")
+      ),
+      "go_focus": lambda: (
+          print('Activating "Learn Unity" mode...')
+      ),
+    },
+    {
+      "name": "Learn Blender",
+      "keyword": "learn_blender",
+      "description": 
+        '''
+          Sample description...
+        '''
+      ,
+      "config_instructions": 
+        '''
+          Sample instructions...
+        '''
+      ,
+      "check_config": lambda: (
+          print("Checking config if valid...")
+      ),
+      "go_focus": lambda: (
+          print('Activating "Learn Blender" mode...')
+      ),
+    },
+]
+
 def create_new_desktop():
     # Simulate Windows key + Ctrl + D to create a new desktop
     pyautogui.hotkey('win', 'ctrl', 'd')
