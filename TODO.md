@@ -6,3 +6,11 @@
 - Write the check_config
 - Write the go_focus
 - Repeat for the rest of the modes
+
+# print("1 - Chill")
+# print("2 - Learn Python")
+# print("3 - Learn Unity")
+# print("4 - DigiLance Cold Calling")
+# print("5 - Work on a Code Project")
+# print("6 - Do some music")
+# print("0 - Exit")
