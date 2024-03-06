@@ -7,6 +7,8 @@
 - Write the go_focus
 - Repeat for the rest of the modes
 
+- FOR NOW, I think forgoing the config_instructions and check_config parts is imperative, as otherwise I'd be stuck demotivated in writing instead of coding, so having placeholders is okay for the time being
+
 # print("1 - Chill")
 # print("2 - Learn Python")
 # print("3 - Learn Unity")
